@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>javascript</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+        <div class="container">
+        <div class="row justify-content-center">
+        <div class="col-sm-6">
+	<form action="home.html" method="post" onsubmit="return validate()">
+	    <h1>Registration Form</h1>
+        <hr class="mb-6">
+
+  <div class="form-group">
+    <label for="username">User name</label>
+    <input type="text" class="form-control"  name="username" id="user"  placeholder="Enter username">
+    <span id="uname" class="text-danger font-weight-bold"></span>
+  </div>
+
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" name="password" id="Password1" placeholder="Enter Password">
+      <span id="pass1" class="text-danger font-weight-bold"></span>
+  </div>
+
+ <div class="form-group">
+    <label for="confirmpassword">Confirm Password</label>
+    <input type="password" class="form-control" name="confirmpassword" id="Password2" placeholder="Enter Confirm Password">
+      <span id="pass2" class="text-danger font-weight-bold"></span>
+  </div>
+
+  <div class="form-group">
+    <label for="mobilenumber">Mobile Number</label>
+    <input type="text" class="form-control" name="mobilenumber" id="mobilenumber" placeholder="Enter Mobile number">
+      <span id="mobileno" class="text-danger font-weight-bold"></span>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="text" class="form-control" name="email" id="email" placeholder="Enter email address">
+      <span id="emailid" class="text-danger font-weight-bold"></span>
+  </div>
+
+  <input type="submit" id="btn" class="btn btn-danger"></input>
+</form>
+</div>
+</div>
+</div>
+
+<script type="text/javascript" src="index.js">
+</script>
+
+</body>
+</html>
