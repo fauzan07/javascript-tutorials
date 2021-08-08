@@ -173,3 +173,21 @@ console.log(!b); // true
 // url 
 // https://javascript.info/operators
 
+// 6. comparison operator 
+
+// url 
+// https://www.w3schools.com/js/js_comparisons.asp
+
+// 7.condition operator 
+let company = prompt('which company created javascript?');
+// if(company == 'nestscape'){
+//   console.log("you are right");
+// }else{
+//   console.log("you are wrong");
+// }
+
+company == 'nestscape' ? console.log("you are right") :  console.log("you are wrong");
+
+// functions 
+// url 
+// https://javascript.info/function-basics
