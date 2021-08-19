@@ -5,7 +5,7 @@ function validate(){
 	var mobilenumber=document.getElementById('mobilenumber').value;
 	var email=document.getElementById('email').value;
 
-	console.log(user);	
+	// console.log(user);	
 
 	if(user==null || user==""){
 		// alert("enter d username");
