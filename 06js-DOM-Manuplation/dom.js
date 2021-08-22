@@ -4,7 +4,7 @@
 // console.log(document.domain);
 // console.log(document.URL);
 // console.log(document.title);
-// //document.title =  123;
+// document.title =  123;
 // console.log(document.doctype);
 // console.log(document.head);
 // console.log(document.body);
@@ -19,12 +19,12 @@
 // console.log(document.getElementById('header-title'));
 // var headerTitle = document.getElementById('header-title');
 // var header = document.getElementById('main-header');
-// console.log(headerTitle);
+// console.log(header);
 // headerTitle.textContent = 'Hello';
 // headerTitle.innerText = 'Goodbye';
-// console.log(headerTitle.innerText);
+// console.log(headerTitle.textContent);
 // headerTitle.innerHTML = '<h3>Hello</h3>';
-// header.style.borderBottom = 'solid 3px #000';
+// headerTitle.style.fontSize = '100px';
 
 // GETELEMENTSBYCLASSNAME //
 // var items = document.getElementsByClassName('list-group-item');
@@ -32,13 +32,13 @@
 // console.log(items[1]);
 // items[1].textContent = 'Hello 2';
 // items[1].style.fontWeight = 'bold';
-// items[1].style.backgroundColor = 'yellow';
+// items[3].style.backgroundColor = 'yellow';
 
 // // Gives error
-// //items.style.backgroundColor = '#f4f4f4';
+// items.style.backgroundColor = '#f4f4f4';
 
 // for(var i = 0; i < items.length; i++){
-//   items[i].style.backgroundColor = '#f4f4f4';
+//   items[i].style.backgroundColor = 'yellow';
 // }
 
 // GETELEMENTSBYTAGNAME //
@@ -72,7 +72,7 @@
 // var lastItem = document.querySelector('.list-group-item:last-child');
 // lastItem.style.color = 'blue';
 
-// var secondItem = document.querySelector('.list-group-item:nth-child(2)');
+// var secondItem = document.querySelector('.list-group-item:nth-child(3)');
 // secondItem.style.color = 'coral';
 
 // QUERYSELECTORALL //
