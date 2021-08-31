@@ -128,23 +128,23 @@ alert(s); // mystring
 
 let f;
 f = 10;
-console.log(++f);  
-console.log(f); 
+console.log(++f);  //11
+console.log(f);     //11
 
 let g;
 g = 12;
-console.log(g++);  
-console.log(g); 
+console.log(g++);  //12
+console.log(g);     //13
 
 let h;
 h = 10;
-console.log(--h);
-console.log(h);
+console.log(--h);  //9
+console.log(h);     //9
 
 let i;
 i = 12;
-console.log(i--);
-console.log(i);
+console.log(i--); //12
+console.log(i);  //11
 
 // 5.logical operator
 // && Logical AND: true if both the operands/boolean values are true, else evaluates to false
@@ -174,6 +174,9 @@ console.log(!b); // true
 // https://javascript.info/operators
 
 // 6. comparison operator 
+x=5
+x =="5"  //true
+x === "5" //false
 
 // url 
 // https://www.w3schools.com/js/js_comparisons.asp
@@ -219,5 +222,3 @@ slice()
 sort()
 reverse()
 // URL https://www.w3schools.com/js/js_array_methods.asp
-
-

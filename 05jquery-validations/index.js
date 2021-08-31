@@ -1,31 +1,24 @@
 $(document).ready(function(){
 
-
-
 //rahul code
 
 $("#select").change(function(){
         var selectedCountry = $(this).children("option:selected").val();
         // alert("You have selected the country - " + selectedCountry);
-
        if(selectedCountry=="select city")
        {
        $('#selectcheck').show();
-$('#selectcheck').html("**Please select the city");
-$('#selectcheck').focus();
-$('#selectcheck').css("color","red");
-select_err=false;
-return fales;
+       $('#selectcheck').html("**Please select the city");
+       $('#selectcheck').focus();
+       $('#selectcheck').css("color","red");
+       select_err=false;
+       return fales;
        }else{
        	$('#selectcheck').hide();
        }
     });
 
 //rahul code end
-
-
-
-
 
 $('#usercheck').hide();
 $('#passcheck').hide();
