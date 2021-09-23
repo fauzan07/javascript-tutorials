@@ -67,11 +67,16 @@ const[names, id, ...runs] = runner
 
 console.log(runs);
 
+// https://www.educative.io/edpresso/what-is-the-rest-parameter-in-javascript?aid=5082902844932096&utm_source=google&utm_medium=cpc&utm_campaign=edpresso-dynamic&utm_term=&utm_campaign=Dynamic+-+Edpresso&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=8092184362&hsa_grp=86276435689&hsa_ad=397226000870&hsa_src=g&hsa_tgt=aud-961065952942:dsa-837376625453&hsa_kw=&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw4eaJBhDMARIsANhrQADjVWx6FdiDCq0LlphRTv-Bewi5Qq5Fowe5DnI99Nh7w113tNBN9RMaAps5EALw_wcB
 
+
+
+//local storage and session storage
 
 // localStorage.setItem('name', "salim");
 // alert( localStorage.getItem('name') );
 // console.log(localStorage.length)
 // localStorage.removeItem('persondata');
+// localStorage.clear();
 
-localStorage.clear();
+// https://javascript.info/localstorage
