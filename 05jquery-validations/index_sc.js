@@ -47,12 +47,12 @@ $(document).ready(function(){
 
             messages: {
                 username: {
-                    required: "This field is required",
-                    letters: "Must enter character only",
+                    required: "username field is required",
+                    letters: "Must character only",
                     maxlength: "Please enter 35 Characters only"
                 },
                 emailid: {
-                    required: "This field is required",
+                    required: "email field is required",
                     email: "Please enter a valid email id",
                     emailtest: "Please enter a valid email address"
                 },
