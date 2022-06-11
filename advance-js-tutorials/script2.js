@@ -13,6 +13,7 @@ const myacount = person.insta;
 // Object destructuring
 
 const {name, country, insta} = person
+// console.log(name);
 
 var employee = {    // Object we want to destructure
     firstname: 'Jon',
@@ -30,7 +31,12 @@ console.log( fn, ln, dob);
 
 let haris = "engineering";
 let aquib = "bcom";
-// console.log(haris);
+console.log(haris);
+
+// let ajmal = "class nehi aya";
+// let junaid = "class aya";
+
+// [ajmal, junaid] = [junaid, ajmal]
 
 [haris, aquib] = [aquib, haris]
 
@@ -62,10 +68,14 @@ console.log(desserts2);
 //rest parameter 
 
 const runner = ["dhoni", 123, 5,6,7,8,9]
+const runners = ["mohammed", 123, "developer","fe developer"]
+
 
 const[names, id, ...runs] = runner
+const[namess, ids, ...profile] = runners
 
-console.log(runs);
+console.log(runs);//runs = [5,6,7,8,9]
+console.log(profile);//profile = ["developer", "fe developer"]
 
 // https://www.educative.io/edpresso/what-is-the-rest-parameter-in-javascript?aid=5082902844932096&utm_source=google&utm_medium=cpc&utm_campaign=edpresso-dynamic&utm_term=&utm_campaign=Dynamic+-+Edpresso&utm_source=adwords&utm_medium=ppc&hsa_acc=5451446008&hsa_cam=8092184362&hsa_grp=86276435689&hsa_ad=397226000870&hsa_src=g&hsa_tgt=aud-961065952942:dsa-837376625453&hsa_kw=&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjw4eaJBhDMARIsANhrQADjVWx6FdiDCq0LlphRTv-Bewi5Qq5Fowe5DnI99Nh7w113tNBN9RMaAps5EALw_wcB
 
@@ -75,8 +85,8 @@ console.log(runs);
 
 // localStorage.setItem('name', "salim");
 // alert( localStorage.getItem('name') );
-// console.log(localStorage.length)
-// localStorage.removeItem('persondata');
+// alert(localStorage.length)
+// localStorage.removeItem('name');
 // localStorage.clear();
 
 // https://javascript.info/localstorage

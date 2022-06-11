@@ -7,34 +7,34 @@
 
 
 // Pretend that this response is coming from the server
-const students = [
-    {name: "aquib", subject: "JavaScript"},
-    {name: "haris", subject: "Bootstrap"}
-]
+// const students = [
+//     {name: "ajam", subject: "JavaScript"},
+//     {name: "junaid", subject: "Bootstrap"}
+// ]
 
 
-function enrollStudent(student, callback){
-    setTimeout(function() {
-        students.push(student);
-        console.log("Student has been enrolled");
-        callback();
-    }, 3000);
-}
+// function enrollStudent(student, callback){
+//     setTimeout(function() {
+//         students.push(student);
+//         console.log("Student has been enrolled");
+//         callback();
+//     }, 1000);
+// }
 
 
-function getStudents(){
-    setTimeout(function() {
-        let str = "";
-        students.forEach(function(student){
-            str += `<li> ${student.name}</li>`
-        });
-        document.getElementById('students').innerHTML = str;
-        console.log("Students have been fetched");
-    }, 1000);
-}
+// function getStudents(){
+//     setTimeout(function() {
+//         let str = "";
+//         students.forEach(function(student){
+//             str += `<li> ${student.name}</li>`
+//         });
+//         document.getElementById('students').innerHTML = str;
+//         console.log("Students have been fetched");
+//     }, 3000);
+// }
 
-let newStudent = {name:"salim", subject:"react"}
-enrollStudent(newStudent, getStudents);
+// let newStudent = {name:"mohammed", subject:"react"}
+// enrollStudent(newStudent, getStudents);
 // getStudents();
 
 
@@ -78,7 +78,7 @@ let newStudent = { name: "Sunny", subject: "Python" }
 enrollStudent(newStudent).then(getStudents).catch(function () {
     console.log("Some error occured");
 });
-// getStudents();
+getStudents();
 
 // function inside then is ran as - resolve()
 // function inside catch is ran as - reject()
